@@ -32,7 +32,7 @@ Team member: 강석준, 이수호, 전준석, 황지환
 ### 3) Constraints
 + Flight, 용산만 제외
 
-## 4. Dataset
+## 4. Main Dataset
 사진+ 간략한 설명예정
 + *OD dataset*
 
@@ -41,17 +41,33 @@ Team member: 강석준, 이수호, 전준석, 황지환
 + *Population Density & Number of Company*
 
 
-## 여기서부터는 본인 역할별로 세세하게 적고 싶으면 적어주셈
 ## 5. Preprocessing
+### 1) DataSet
+pop_density,, 등 기초 자료등 사용한 데이터 기록, 부분적으로 api사용해서 위경도 불러온거 기록 
 
-## 6. Our models
+## 6. Model
 
 ### 1) K-means Clustering
-  + K-means Clustering is .....
-  + How to Clustering is....
+   + 설명, 하는 역할 
 
-### 2) 다익스트라
-   + Kang....
+### 2) Agglomerative hierarchical clustering
+   + 설명 및 안쓰는이유
 
-## 7. Conclusion
+
+## 7. Our Project Flow
+
+### 1) Feedback Reflected Clustering
+   +  How to Clustering is....
+
+### 2) Select a specific 'Dong' for each Cluster
+   +
+
+### 3) Evaluate Transportation Access for Each Candidate ‘Dong'
+   + Sue..Help
+
+### 4) Finding the optimal route among stations
+   + Kang....help
+
+
+## 8. Conclusion
  +  This project has successfully pinpointed six prime locations for air taxi stations, strategically situated near major transit points to facilitate easy access and connectivity. By leveraging a hexagonal zoning approach in Seoul and employing Dijkstra's algorithm for economical pathfinding, we've optimized air taxi routes for maximum efficiency. This initiative is poised to significantly bolster the integration with existing public transportation networks, alleviate road traffic congestion, and play a pivotal role in establishing a robust air taxi system in Seoul, with far-reaching economic benefits.
