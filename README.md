@@ -5,7 +5,7 @@ Selecting the optimal location and route for air-taxi in SEOUL
 This is a team project that Selecting the optimal location and route for air-taxi in SEOUL
 
 
-
+## 여기서부터 수정해야함.
 ## 1. Topic description
 
 ![image](https://user-images.githubusercontent.com/66208800/201391151-8a332d2c-d1a0-49b2-ada5-8036e4907bbd.png)
@@ -17,25 +17,19 @@ This is a team project that Selecting the optimal location and route for air-tax
 + As urban populations soar and the demand for efficient transportation intensifies, the current infrastructure struggles to keep pace, leading to exacerbated traffic congestion. The challenge is to innovate beyond the saturated capacity of roads and traditional public transit systems. Air taxis emerge as a prospective solution to these problems, offering an alternative mode of transportation that utilizes the underused airspace above cities.
 
 + The primary problem is the identification of strategic locations for air taxi stations that harmonize with urban layouts, optimize accessibility, and ensure maximum coverage with minimal disruption to existing cityscapes and regulations. The secondary problem is the development of an effective routing network that connects these stations, facilitating direct and efficient travel routes for passengers while minimizing the environmental impact and operational costs.
-## 여기서부터 수정해야함.
+
 ## 3. Purpose of the analysis
 
-### 1) Why Spain? 
-+ In Spain, the funding system for renewable energies is quite effective. The share of renewables in total power plant capacity was 44 % on 31 December 2013. The share of renewables in total power demand has increased from less than 7 % in 2000 to more than 25 % in 2013. Moreover, Spain has a variety of possible renewable energy production such as wind and solar energy thanks to its topography and weather. Therefore, we selected Spain, which uses more than 40% of renewable energy, as a target and conducted an analysis.
-
-### 2) Our Purpose
+### 1) Purpose
 + Our purpose is not only to analyze the relationship between weather and renewable energy production, but also to **find the optimal real-time electricity pricing models based on weather-related energy generation and consumption data**. Currently in Spain, only power transmission is under state control (REE, a state-owned enterprise), and power generation and distribution are operated by private companies.
 We will use datasets for the energy, the weather, and the current Spanish TSO price (like SMP in Korea).
  
-### 3) Our Constraints
+### 2) Expected outcomes
 + Thus, our constraints are as follow:
   + 1) Our energy distribution policy considers only electric power transmissions from REE national power plants to substations of each company. 
   + 2) Loss of power due to distance is not considered.
 
-### 4) Our Hypothesis
-+ The price we predict could greatly enhance the profit of the entire region, rather than the price of electric energy under the TSO's current system.
-
-### 5) Our Goal
+### 3) Constraints
 + By comparing the price predicted by the amount of fossil energy generation and the price predicted by the amount of renewable energy generation,we can determine how much renewable energy affects the price.  Using this, it is possible to predict prices using only renewable energy in the future even if the production of fossil energy is reduced, thereby encouraging the production of renewable energy at the national level.
 
 ## 4. Dataset
