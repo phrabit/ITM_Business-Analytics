@@ -16,7 +16,7 @@ This is a team project that Selecting the optimal location and route for air-tax
 ## 2. Problem definition
 + As urban populations soar and the demand for efficient transportation intensifies, the current infrastructure struggles to keep pace, leading to exacerbated traffic congestion. The challenge is to innovate beyond the saturated capacity of roads and traditional public transit systems. Air taxis emerge as a prospective solution to these problems, offering an alternative mode of transportation that utilizes the underused airspace above cities.
 
-The primary problem is the identification of strategic locations for air taxi stations that harmonize with urban layouts, optimize accessibility, and ensure maximum coverage with minimal disruption to existing cityscapes and regulations. The secondary problem is the development of an effective routing network that connects these stations, facilitating direct and efficient travel routes for passengers while minimizing the environmental impact and operational costs.
++ The primary problem is the identification of strategic locations for air taxi stations that harmonize with urban layouts, optimize accessibility, and ensure maximum coverage with minimal disruption to existing cityscapes and regulations. The secondary problem is the development of an effective routing network that connects these stations, facilitating direct and efficient travel routes for passengers while minimizing the environmental impact and operational costs.
 ## 여기서부터 수정해야함.
 ## 3. Purpose of the analysis
 
