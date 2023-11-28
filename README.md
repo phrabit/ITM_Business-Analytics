@@ -1,20 +1,20 @@
-# ITM_Business-Analytics
-Selecting the optimal location and route for air-taxi in SEOUL
+# ITM_Business-Analytics 
+Techniques, applications, and practices for analyzing the data generated from diverse source to gain business value.   
 
-# ITM_Business-Analytics-Project-Team6 🖐
-This is a team project for selecting the optimal location and route for air-taxi in SEOUL   
-Team member: 강석준, 이수호, 전준석, 황지환
-
+# Project-Team6 🚁
+This is a team project for selecting the optimal location and route for air-taxi in Seoul.     
+Team members and Roles   
+* 강석준: 
+* 이수호: 
+* 전준석: 
+* 황지환:    
 
 ## 1. Topic description
-
-+ The first goal of this project is to recommend ideal locations for air taxi stations upon the introduction of such a service, aiming to identify the most optimal stops.
-   
-+ Then, the second goal is to devise an efficient routing plan between these chosen locations, providing paths that minimize travel distance for passengers. 
++ The first goal of this project is to recommend ideal locations for air taxi stations upon the introduction of such a service, aiming to identify the most optimal stops.   
++ Then, the second goal is to devise an efficient routing plan between these chosen locations, providing paths that minimize travel distance for passengers.   
 
 ## 2. Problem definition
-+ As urban populations soar and the demand for efficient transportation intensifies, the current infrastructure struggles to keep pace, leading to exacerbated traffic congestion. The challenge is to innovate beyond the saturated capacity of roads and traditional public transit systems. Air taxis emerge as a prospective solution to these problems, offering an alternative mode of transportation that utilizes the underused airspace above cities.
-
++ As urban populations soar and the demand for efficient transportation intensifies, the current infrastructure struggles to keep pace, leading to exacerbated traffic congestion. The challenge is to innovate beyond the saturated capacity of roads and traditional public transit systems. Air taxis emerge as a prospective solution to these problems, offering an alternative mode of transportation that utilizes the underused airspace above cities.   
 + The primary challenge is to identify strategic locations for air taxi stations that harmonize with urban layouts, optimize accessibility, and ensure maximum coverage with minimal disruption to existing city regulations. The second challenge involves developing an effective network to connect these stations, providing passengers with direct and efficient travel routes.
 
 ## 3. Purpose of the analysis
