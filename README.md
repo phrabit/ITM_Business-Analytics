@@ -5,17 +5,19 @@ Selecting the optimal location and route for air-taxi in SEOUL
 This is a team project that Selecting the optimal location and route for air-taxi in SEOUL
 
 
-## 여기서부터 수정해야함.
+
 ## 1. Topic description
 
 ![image](https://user-images.githubusercontent.com/66208800/201391151-8a332d2c-d1a0-49b2-ada5-8036e4907bbd.png)
-+ The first goal of this project is to find a relationship between the weather climate such as snow, rain, wind, and temperature and the amount of renewable energy production by using weather dataset and energy generation dataset in Spain.
-
-+ Then, the second goal is to predict electricity price for resale surplus power electricity. The factors are transportation fee, inventory fee, etc. My team will compare the predicted electricity price with TSO(Transmission Service Operator).
++ The first goal of this project is to recommend ideal locations for air taxi stations upon the introduction of such a service, aiming to identify the most optimal stops.
+   
++ Then, the second goal is to devise an efficient routing plan between these chosen locations, providing paths that minimize travel distance for passengers. 
 
 ## 2. Problem definition
-+ As concerns about climate change keep growing every year, nations across the globe are starting Carbon-zero plans for the next decade. Among their different goals, the increase of renewable energy production and consumption seems to be one priority of our generation. As opposed to fossil energy however, renewable energy such as solar or wind energy are not available all year and need specific weather conditions to be effective. Therefore, some countries may be more prone to some renewable energy than others. For example, countries near the equator might focus more on solar energy than Nordic countries as they get more direct sunlight throughout the year than the latter. However, it might be more complicated for countries with variable weather to decide which type of energy to invest in. Indeed, countries like Spain may want to invest both in solar and wind as well as other types of energy at the same time. As a result, an analysis of the location of the production and the time of the distribution is needed as the country wants as little as waste as possible and a cost as low as possible. This analysis will allow one to understand which energy costs the least and produces the most and therefore, decide which renewable energy to prioritize in the future. 
++ As urban populations soar and the demand for efficient transportation intensifies, the current infrastructure struggles to keep pace, leading to exacerbated traffic congestion. The challenge is to innovate beyond the saturated capacity of roads and traditional public transit systems. Air taxis emerge as a prospective solution to these problems, offering an alternative mode of transportation that utilizes the underused airspace above cities.
 
+The primary problem is the identification of strategic locations for air taxi stations that harmonize with urban layouts, optimize accessibility, and ensure maximum coverage with minimal disruption to existing cityscapes and regulations. The secondary problem is the development of an effective routing network that connects these stations, facilitating direct and efficient travel routes for passengers while minimizing the environmental impact and operational costs.
+## 여기서부터 수정해야함.
 ## 3. Purpose of the analysis
 
 ### 1) Why Spain? 
