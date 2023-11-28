@@ -1,9 +1,9 @@
 # ITM_Business-Analytics
 Selecting the optimal location and route for air-taxi in SEOUL
 
-# ITM_Business-Analytics-Project-Report-Team4 🖐
-This is a team project that Selecting the optimal location and route for air-taxi in SEOUL
-
+# ITM_Business-Analytics-Project-Team6 🖐
+This is a team project for selecting the optimal location and route for air-taxi in SEOUL
+Team member: 강석준, 이수호, 전준석, 황지환
 
 ## 여기서부터 수정해야함.
 ## 1. Topic description
