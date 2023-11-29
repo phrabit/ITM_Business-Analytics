@@ -77,6 +77,7 @@ pop_density,, 등 기초 자료등 사용한 데이터 기록, 부분적으로 a
    + (1) Set the constraints(P-73, noise issue)
    + (2) Cost all paths according to each constraint.  - H3 (Hexagonal hierarchical geospatial indexing system)
    + (3) Find the path where cost between the two stations is minimized.(Dijkstra Algorithm)
+![image](https://github.com/phrabit/ITM_Business-Analytics/assets/97167373/590290e4-b773-4eba-a2ca-893d898e4d6f)
 
 
 
