@@ -1,4 +1,4 @@
-![image](https://github.com/phrabit/ITM_Business-Analytics/assets/97167373/ab3be61c-8b7e-49d1-a79b-458e6d55ec8a)# ITM_Business-Analytics 
+# ITM_Business-Analytics 
 Techniques, applications, and practices for analyzing the data generated from diverse source to gain business value.   
 
 # Project-Team6 🚁
@@ -65,7 +65,8 @@ pop_density,, 등 기초 자료등 사용한 데이터 기록, 부분적으로 a
 ## 7. Our Project Flow
 
 ### 1) Feedback Reflected Clustering
-   +  How to Clustering is....
+   + In progress, using three features(Income level, # of companies, population density), we did clustering.
+     However, it is meaningless since just ranking those features might be more efficient. Thus, we found knee points for # of companies, population density and transportation_total. Sum all of those top instances, then we proceed to do k-means clustering
 
 ### 2) Select a specific 'Dong' for each Cluster
    +
@@ -74,10 +75,10 @@ pop_density,, 등 기초 자료등 사용한 데이터 기록, 부분적으로 a
    + Sue..Help
 
 ### 4) Finding the optimal route among stations
-   + (1) Set the constraints(P-73, noise issue)
-   + (2) Cost all paths according to each constraint.  - H3 (Hexagonal hierarchical geospatial indexing system)
-   + (3) Find the path where cost between the two stations is minimized.(Dijkstra Algorithm)
-![image](https://github.com/phrabit/ITM_Business-Analytics/assets/97167373/590290e4-b773-4eba-a2ca-893d898e4d6f)
+   (1) Set the constraints(P-73, noise issue)  
+   (2) Cost all paths according to each constraint.  - H3 (Hexagonal hierarchical geospatial indexing system)  
+   (3) Find the path where cost between the two stations is minimized.(Dijkstra Algorithm)  
+   <p align="center"><img src="![readmeroute](https://github.com/phrabit/ITM_Business-Analytics/assets/97167373/ce0f7ad1-76cf-440c-908f-fe218b8af637)"></p>
 
 
 
