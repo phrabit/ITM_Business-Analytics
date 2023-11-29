@@ -1,4 +1,4 @@
-# ITM_Business-Analytics 
+![image](https://github.com/phrabit/ITM_Business-Analytics/assets/97167373/ab3be61c-8b7e-49d1-a79b-458e6d55ec8a)# ITM_Business-Analytics 
 Techniques, applications, and practices for analyzing the data generated from diverse source to gain business value.   
 
 # Project-Team6 🚁
@@ -74,7 +74,10 @@ pop_density,, 등 기초 자료등 사용한 데이터 기록, 부분적으로 a
    + Sue..Help
 
 ### 4) Finding the optimal route among stations
-   + Kang....help
+   + (1) Set the constraints(P-73, noise issue)
+   + (2) Cost all paths according to each constraint.  - H3 (Hexagonal hierarchical geospatial indexing system)
+   + (3) Find the path where cost between the two stations is minimized.(Dijkstra Algorithm)
+
 
 
 ## 8. Conclusion
