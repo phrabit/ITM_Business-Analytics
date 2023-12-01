@@ -71,7 +71,36 @@ pop_density,, 등 기초 자료등 사용한 데이터 기록, 부분적으로 a
    +
 
 ### 3) Evaluate Transportation Access for Each Candidate ‘Dong'
-   + Sue..Help
+   Public transportation stops within the representative candidate "dong" selected by clusters are set as candidate sites for Air taxi location, and then the priority of Air taxi location of the candidate sites is finally derived by considering the connection with other transportation methods.
+
+1. Integration of Seoul public transportation (bus, subway) stop location information
+- Collect data on bus stops in Seoul
+- Collect subway station data in Seoul
+- Merge bus stop and subway station data
+- Finally, use the respective latitude and longitude coordinate data and administrative building information of the area (using Google Map API, Kakao API)
+
+2. Calculate the number of other stops within 300 meters of each public transportation stop
+
+- Why 300m?
+Because the plane distance cannot exceed 300m when setting up a transfer center. Therefore, the maximum possible transfer distance between public transportation and air taxi is set to 300m. (According to the Road Traffic Administration Rules)
+
+3. Prioritize Air taxi stops for representative candidate  "dong" in each cluster
+- Data of 6 candidate "dong", one per cluster
+- Data on the number of other stops within 300 meters of each public transportation stop
+- Merge the two datasets.
+
+> Candidate "dong" selection criteria
+> 1) The number of subway stations within a 300m radius of each stop location is prioritized.
+> 2) If the number of subway stations is the same, the number of bus stops within a 300m radius is the final prioritization.
+
+4. Visualize the results
+|제목|내용|설명|
+|------|---|---|
+|![image](https://github.com/phrabit/ITM_Business-Analytics/assets/70180003/58976c71-db20-424d-ba6c-34d62d76e70b)|테스트2|테스트3|
+
+
+
+Translated with DeepL.com (free version)
 
 ### 4) Finding the optimal route among stations
    (1) Set the constraints(P-73, noise issue)  
