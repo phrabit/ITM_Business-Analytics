@@ -41,9 +41,8 @@ Team members and Roles
 
 
 ## 4. Main Dataset
-사진+ 간략한 설명예정
 + *OD dataset*
-
+국가교통DB - 수도권 주수단 OD 데이터(서울 통행량 데이터 활용)
 + *Seoul subway & bus*
 
 + *Population Density & Number of Company*
