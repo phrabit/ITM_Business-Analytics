@@ -71,7 +71,7 @@ Time: The scope of the data has been limited to the Seoul area so that the proje
 ### 2) Feature Selection and Extraction   
 - The information required from the original dataset was selected and combined.   
 - A new table was created combining the morning and afternoon peak time tables of OD data, and a new column was created combining the traffic volume columns of several ways of transportation.   
-- For visualization, the administrative district and coordinate information were matched with the api of the map service.   
+- For visualization, the administrative district(dong) and coordinate information were matched with the API of the map services.   
 
 ### 3) Visualization   
 - Since it deals with spatial data, visualization was taken into consideration to easily grasp information. Visualization was required in all other processes, not only in the preprocessing.   
