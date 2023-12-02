@@ -76,7 +76,9 @@ Time: The scope of the data has been limited to the Seoul area so that the proje
 ### 3) Visualization   
 - Since it deals with spatial data, visualization was taken into consideration to easily grasp information. Visualization was required in all other processes, not only in the preprocessing.   
 - Python's Folium, Pydeck, etc libraries was used.   
-- Arc visualization of OD data with Pydeck) Top 1000 traffic by buses at AM peak time in Seoul(origin: red / destination: green)![image](https://github.com/phrabit/ITM_Business-Analytics/assets/52899088/5f112467-1418-47fe-b7f7-50c7a89d1cd3)
+- Arc visualization of OD data - Top 1000 traffic by buses at AM peak time in Seoul(origin: red / destination: green)![image](https://github.com/phrabit/ITM_Business-Analytics/assets/52899088/5f112467-1418-47fe-b7f7-50c7a89d1cd3)
+- Visualization with dark colors on Dongs having the high-level values of the features - Top 10 Dongs with income level, population density, and number of companies in Seoul![image](https://github.com/phrabit/ITM_Business-Analytics/assets/52899088/b20e6e5d-99f8-4313-a5ed-eb47fb4ea483)
+
 
 
 ## 6. Model
