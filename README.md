@@ -66,17 +66,17 @@ Time: The scope of the data has been limited to the Seoul area so that the proje
 ### 1) EDA   
 - Metadata provided by the data source allows you to grasp the context of the data.
 - Statistics and simple plots (distribution, scatter, and box plot) were used to analyze the data.   
--- From the OD data, it could be identified by the distribution plot that traffic in only a few regions during commuting time is significantly higher than that in most other regions.   
+- From the OD data, it could be identified by the distribution plot that traffic in only a few regions during commuting time is significantly higher than that in most other regions.   
 
 ### 2) Feature Selection and Extraction   
 - The information required from the original dataset was selected and combined.   
--- A new table was created combining the morning and afternoon peak time tables of OD data, and a new column was created combining the traffic volume columns of several ways of transportation.   
--- For visualization, the administrative district and coordinate information were matched with the api of the map service.   
+- A new table was created combining the morning and afternoon peak time tables of OD data, and a new column was created combining the traffic volume columns of several ways of transportation.   
+- For visualization, the administrative district and coordinate information were matched with the api of the map service.   
 
 ### 3) Visualization   
-- Since it deals with spatial data, visualization was taken into consideration to easily grasp information. Visualization was required in all other processes, not only in the preprocessing.
--- Python's Folium, Pydeck, etc libraries was used.
--- Arc visualization of OD data with Pydeck) Top 1000 traffic by buses at AM peak time in Seoul(origin: red / destination: green)![image](https://github.com/phrabit/ITM_Business-Analytics/assets/52899088/5f112467-1418-47fe-b7f7-50c7a89d1cd3)
+- Since it deals with spatial data, visualization was taken into consideration to easily grasp information. Visualization was required in all other processes, not only in the preprocessing.   
+- Python's Folium, Pydeck, etc libraries was used.   
+- Arc visualization of OD data with Pydeck) Top 1000 traffic by buses at AM peak time in Seoul(origin: red / destination: green)![image](https://github.com/phrabit/ITM_Business-Analytics/assets/52899088/5f112467-1418-47fe-b7f7-50c7a89d1cd3)
 
 
 ## 6. Model
