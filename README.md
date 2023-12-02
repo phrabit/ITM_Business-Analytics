@@ -5,7 +5,7 @@ Techniques, applications, and practices for analyzing the data generated from di
 This is a team project for __selecting the optimal location and route for air-taxi in Seoul.__     
 
 Team members and Roles   
-* Seokjun Kang : 
+* Seokjun Kang : Preprocess OD data and make algorithm to find the routes
 * Suho Lee : Build a data analysis process and Modeling
 * Junseok Jeon : 
 * Jihwan Hwang :    
@@ -40,15 +40,26 @@ Team members and Roles
 + Flight, 용산만 제외   
 
 
-## 4. Main Dataset
+## 4. Main Datasets
 + *OD dataset*
-국가교통DB - 수도권 주수단 OD 데이터(서울 통행량 데이터 활용)
-+ *Seoul subway & bus*
+[국가교통DB - 수도권 주수단 OD 데이터(서울 통행량 데이터 활용)](https://www.ktdb.go.kr/www/index.do)   
 
-+ *Population Density & Number of Company*
++ *Population Density & Number of Company*   
+[서울열린데이터광장 - 서울시 인구밀도 (동별) 통계](https://data.seoul.go.kr/dataList/10584/S/2/datasetView.do)   
+[서울시 사업체현황 통계](https://data.seoul.go.kr/)
+
++ *Seoul subway & bus*   
+[산림빅테이터거래소 - 지하철 역 정보(위치)](https://www.bigdata-forest.kr/product/PTP002901)   
+[서울시열린데이터광장 - 서울시 버스정류소 위치정보](https://data.seoul.go.kr/dataList/OA-15067/S/1/datasetView.do)   
+[서울시열린데이터광장 - 서울시 버스노선별 정류장별 승하차 인원 정보](https://data.seoul.go.kr/dataList/OA-12912/S/1/datasetView.do)
+
++ *Seoul geographic data*
+[국가공간정보포털 - (도로명주소)도로구간](http://data.nsdi.go.kr/dataset/12902)   
+[국가공간정보포털 - 하천경계](http://data.nsdi.go.kr/dataset/20180927ds0054)   
 
 
 ## 5. Preprocessing
+
 ### 1) DataSet
 pop_density,, 등 기초 자료등 사용한 데이터 기록, 부분적으로 api사용해서 위경도 불러온거 기록 
 
@@ -109,20 +120,20 @@ Because the plane distance cannot exceed 300m when setting up a transfer center.
 
 ### 4) Finding the optimal route among stations
 1. Set the constraints(P-73, noise issue)
-1) No-fly Zone: P-73 (2023) - 3.704km radius of War Memorial of Korea in Yongsan, Seoul
-2) Altitude and Noise Issue: Road and river shp data in Seoul
+- No-fly Zone: P-73 (2023) - 3.704km radius of War Memorial of Korea in Yongsan, Seoul
+- Altitude and Noise Issue: Road and river shp data in Seoul
 
 2. Cost all paths according to each constraint.
-1) H3 (Hexagonal hierarchical geospatial indexing system) fills the entire area of Seoul.
-2) Hexagons intersecting wide roads and passing through rivers have high costs.
+- H3 (Hexagonal hierarchical geospatial indexing system) fills the entire area of Seoul.
+- Hexagons intersecting wide roads and passing through rivers have high costs.
 
 3. Find the path where cost between the two stations is minimized.(Dijkstra Algorithm)
-> Targets: 6 Hexagons containing the 6 selected station locations at the previous step
-> Nodes: All Hexagons
-> Edges: Each hexagon’s straight path to neighbor hexagons
-> Costs: costs in Hexagons
+> 1) Targets: 6 Hexagons containing the 6 selected station locations at the previous step
+> 2) Nodes: All Hexagons
+> 3) Edges: Each hexagon’s straight path to neighbor hexagons
+> 4) Costs: costs in Hexagons
  
-5. Visualize the results
+4. Visualize the results
 ![readmeroute](https://github.com/phrabit/ITM_Business-Analytics/assets/97167373/ce0f7ad1-76cf-440c-908f-fe218b8af637)
 
 
