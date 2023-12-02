@@ -16,8 +16,7 @@ Team members and Roles
 
 + Then, the second goal is to devise an efficient routing plan between these chosen locations, providing paths that minimize travel distance for passengers.     
 
-![DALL·E 2023-12-02 21 51 05 - A futuristic drone flying over the Han River in Seoul](https://github.com/phrabit/ITM_Business-Analytics/assets/52899088/3caabca8-363e-40f6-a916-dc080d1f2def)<span style="font-size: 8px; color: grey">This picture is drawn by DALL·E</span>
-
+![DALL·E 2023-12-02 21 51 05 - A futuristic drone flying over the Han River in Seoul](https://github.com/phrabit/ITM_Business-Analytics/assets/52899088/3caabca8-363e-40f6-a916-dc080d1f2def)<span style="font-size:50%; color: grey">This picture is drawn by DALL·E</span>
 
 
 ## 2. Problem definition   
