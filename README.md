@@ -8,7 +8,7 @@ Team members and Roles
 * Seokjun Kang : Preprocess OD data and make algorithm to find the routes
 * Suho Lee : Build a data analysis process and Modeling
 * Junseok Jeon : 
-* Jihwan Hwang :    
+* Jihwan Hwang : Proprecess bus & Visulation     
 
 
 ## 1. Topic description
@@ -106,7 +106,7 @@ K-means Clustering is sensitive to outliers. In particular, if an outlier is sel
 
 
 ### 2) Select a specific 'Dong' for each Cluster
-   +
+   + 
 
 ### 3) Evaluate Transportation Access for Each Candidate ‘Dong'
    Public transportation stops within the representative candidate "dong" selected by clusters are set as candidate sites for Air taxi location, and then the priority of Air taxi location of the candidate sites is finally derived by considering the connection with other transportation methods.
