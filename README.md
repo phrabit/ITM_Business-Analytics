@@ -55,10 +55,16 @@ pop_density,, 등 기초 자료등 사용한 데이터 기록, 부분적으로 a
 ## 6. Model
 
 ### 1) K-means Clustering
-   + 설명, 하는 역할 
 
-### 2) Agglomerative hierarchical clustering
-   + 설명 및 안쓰는이유
+   K-means Clustering is a distance-based clustering algorithm for dividing data into K clusters.
+K-means Clustering assumes that data in the same cluster have similar features and data in different clusters have opposite features. In other words, it not only considers clustering within the same cluster, but also considers the relationship with other clusters. 
+K-means clustering is simple, fast, and performs well.
+
+> It is sensitive to outliers.
+K-means Clustering is sensitive to outliers. In particular, if an outlier is selected as the centroid, it can lead to strange clustering results, so apply the model after preprocessing using <b>StandardScaler</b>.
+
+   ![image](https://github.com/phrabit/ITM_Business-Analytics/assets/70180003/f63a883c-cce4-422a-8272-0f8c4582b997)
+
 
 
 ## 7. Our Project Flow
@@ -66,6 +72,9 @@ pop_density,, 등 기초 자료등 사용한 데이터 기록, 부분적으로 a
 ### 1) Feedback Reflected Clustering
    + In progress, using three features(Income level, # of companies, population density), we did clustering.
      However, it is meaningless since just ranking those features might be more efficient. Thus, we found knee points for # of companies, population density and transportation_total. Sum all of those top instances, then we proceed to do k-means clustering
+
+     ![image](https://github.com/phrabit/ITM_Business-Analytics/assets/70180003/163a2dd4-be5d-451f-98a0-7c8cc25d55ca)
+
 
 ### 2) Select a specific 'Dong' for each Cluster
    +
@@ -78,6 +87,7 @@ pop_density,, 등 기초 자료등 사용한 데이터 기록, 부분적으로 a
 - Collect subway station data in Seoul
 - Merge bus stop and subway station data
 - Finally, use the respective latitude and longitude coordinate data and administrative building information of the area (using Google Map API, Kakao API)
+
 
 2. Calculate the number of other stops within 300 meters of each public transportation stop
 
@@ -94,13 +104,8 @@ Because the plane distance cannot exceed 300m when setting up a transfer center.
 > 2) If the number of subway stations is the same, the number of bus stops within a 300m radius is the final prioritization.
 
 4. Visualize the results
-|제목|내용|설명|
-|------|---|---|
-|![image](https://github.com/phrabit/ITM_Business-Analytics/assets/70180003/58976c71-db20-424d-ba6c-34d62d76e70b)|테스트2|테스트3|
+![image](https://github.com/phrabit/ITM_Business-Analytics/assets/70180003/e6a7bcef-ea14-421b-95a0-65ccd981c353)
 
-
-
-Translated with DeepL.com (free version)
 
 ### 4) Finding the optimal route among stations
    (1) Set the constraints(P-73, noise issue)  
