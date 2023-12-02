@@ -5,10 +5,10 @@ Techniques, applications, and practices for analyzing the data generated from di
 This is a team project for __selecting the optimal location and route for air-taxi in Seoul.__     
 
 Team members and Roles   
-* 강석준: 
-* 이수호: 
-* 전준석: 
-* 황지환:    
+* Seokjun Kang : 
+* Suho Lee : Build a data analysis process and Modeling
+* Junseok Jeon : 
+* Jihwan Hwang :    
 
 
 ## 1. Topic description
