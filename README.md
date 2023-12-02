@@ -67,7 +67,7 @@ K-means Clustering is sensitive to outliers. In particular, if an outlier is sel
 
 
 
-## 7. Our Project Flow
+## 7. Project Flow
 
 ### 1) Feedback Reflected Clustering
    + In progress, using three features(Income level, # of companies, population density), we did clustering.
@@ -108,11 +108,22 @@ Because the plane distance cannot exceed 300m when setting up a transfer center.
 
 
 ### 4) Finding the optimal route among stations
-   (1) Set the constraints(P-73, noise issue)  
-   (2) Cost all paths according to each constraint.  - H3 (Hexagonal hierarchical geospatial indexing system)  
-   (3) Find the path where cost between the two stations is minimized.(Dijkstra Algorithm)  
-   ![readmeroute](https://github.com/phrabit/ITM_Business-Analytics/assets/97167373/ce0f7ad1-76cf-440c-908f-fe218b8af637)
+1. Set the constraints(P-73, noise issue)
+> 1) No-fly Zone: P-73 (2023) - 3.704km radius of War Memorial of Korea in Yongsan, Seoul
+> 2) Altitude and Noise Issue: Road and river shp data in Seoul
 
+2. Cost all paths according to each constraint.
+> 1) H3 (Hexagonal hierarchical geospatial indexing system) fills the entire area of Seoul.
+> 2) Hexagons intersecting wide roads and passing through rivers have high costs.
+
+3. Find the path where cost between the two stations is minimized.(Dijkstra Algorithm)
+> Targets: 6 Hexagons containing the 6 selected station locations at the previous step
+> Nodes: All Hexagons
+> Edges: Each hexagon’s straight path to neighbor hexagons
+> Costs: costs in Hexagons
+ 
+5. Visualize the results
+![readmeroute](https://github.com/phrabit/ITM_Business-Analytics/assets/97167373/ce0f7ad1-76cf-440c-908f-fe218b8af637)
 
 
 
