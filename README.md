@@ -106,7 +106,10 @@ K-means Clustering is sensitive to outliers. In particular, if an outlier is sel
 
 
 ### 2) Select a specific 'Dong' for each Cluster
-   + 
+
+![image](https://github.com/phrabit/ITM_Business-Analytics/assets/119919849/5dc6bdbe-8040-4e2e-bcf5-fc84d7780ef0)![image](https://github.com/phrabit/ITM_Business-Analytics/assets/119919849/54e2252a-693e-4172-b39d-e3c20d73f066)
+![image](https://github.com/phrabit/ITM_Business-Analytics/assets/119919849/5e5c9ee2-9a43-491d-8612-133604f8996f)![image](https://github.com/phrabit/ITM_Business-Analytics/assets/119919849/0a5a89a8-189b-4b96-87a6-2c6a562a3073)
+
 
 ### 3) Evaluate Transportation Access for Each Candidate ‘Dong'
    Public transportation stops within the representative candidate "dong" selected by clusters are set as candidate sites for Air taxi location, and then the priority of Air taxi location of the candidate sites is finally derived by considering the connection with other transportation methods.
