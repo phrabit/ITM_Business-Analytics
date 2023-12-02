@@ -37,31 +37,37 @@ Team members and Roles
 + __Efficient Travel Routes__: A detailed routing plan that connects these stations. This plan should facilitate quick, direct, and efficient travel for passengers, significantly reducing the travel time compared to current transportation options.      
 
 ### 3) Constraints   
-+ Flight, 용산만 제외   
+Data sources: The data was obtained only through public datasets and open APIs.   
+Time: The scope of the data has been limited to the Seoul area so that the project can be processed for a month.   
 
 
 ## 4. Main Datasets
 + *OD dataset*   
-* [국가교통DB - 수도권 주수단 OD 데이터(서울 통행량 데이터 활용)](https://www.ktdb.go.kr/www/index.do)   
+[국가교통DB - 수도권 주수단 OD 데이터(서울 통행량 데이터 활용)](https://www.ktdb.go.kr/www/index.do)   
 
 + *Population Density & Number of Company*   
-* [서울열린데이터광장 - 서울시 인구밀도 (동별) 통계](https://data.seoul.go.kr/dataList/10584/S/2/datasetView.do)   
-* [서울시 사업체현황 통계](https://data.seoul.go.kr/)   
+[서울열린데이터광장 - 서울시 인구밀도 (동별) 통계](https://data.seoul.go.kr/dataList/10584/S/2/datasetView.do)   
+[서울시 사업체현황 통계](https://data.seoul.go.kr/)   
 
 + *Seoul subway & bus*   
-* [산림빅테이터거래소 - 지하철 역 정보(위치)](https://www.bigdata-forest.kr/product/PTP002901)   
-* [서울시열린데이터광장 - 서울시 버스정류소 위치정보](https://data.seoul.go.kr/dataList/OA-15067/S/1/datasetView.do)   
-* [서울시열린데이터광장 - 서울시 버스노선별 정류장별 승하차 인원 정보](https://data.seoul.go.kr/dataList/OA-12912/S/1/datasetView.do)   
+[산림빅테이터거래소 - 지하철 역 정보(위치)](https://www.bigdata-forest.kr/product/PTP002901)   
+[서울시열린데이터광장 - 서울시 버스정류소 위치정보](https://data.seoul.go.kr/dataList/OA-15067/S/1/datasetView.do)   
+[서울시열린데이터광장 - 서울시 버스노선별 정류장별 승하차 인원 정보](https://data.seoul.go.kr/dataList/OA-12912/S/1/datasetView.do)   
 
 + *Seoul geographic data*   
-* [국가공간정보포털 - (도로명주소)도로구간](http://data.nsdi.go.kr/dataset/12902)   
-* [국가공간정보포털 - 하천경계](http://data.nsdi.go.kr/dataset/20180927ds0054)   
+[국가공간정보포털 - (도로명주소)도로구간](http://data.nsdi.go.kr/dataset/12902)   
+[국가공간정보포털 - 하천경계](http://data.nsdi.go.kr/dataset/20180927ds0054)   
 
++ *Google Map API and Kakao Map API*   
 
 ## 5. Preprocessing
 
-### 1) DataSet
-pop_density,, 등 기초 자료등 사용한 데이터 기록, 부분적으로 api사용해서 위경도 불러온거 기록 
+### 1) EDA   
+
+### 2) Feature Selection and Extraction   
+
+### 3) Visualization   
+
 
 ## 6. Model
 
@@ -99,9 +105,7 @@ K-means Clustering is sensitive to outliers. In particular, if an outlier is sel
 - Merge bus stop and subway station data
 - Finally, use the respective latitude and longitude coordinate data and administrative building information of the area (using Google Map API, Kakao API)
 
-
 2. Calculate the number of other stops within 300 meters of each public transportation stop
-
 - Why 300m?
 Because the plane distance cannot exceed 300m when setting up a transfer center. Therefore, the maximum possible transfer distance between public transportation and air taxi is set to 300m. (According to the Road Traffic Administration Rules)
 
