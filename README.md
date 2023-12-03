@@ -7,8 +7,8 @@ This is a team project for __selecting the optimal location and route for air-ta
 Team members and Roles   
 * Seokjun Kang : Preprocess OD data and make algorithm to find the routes
 * Suho Lee : Build a data analysis process and Modeling
-* Junseok Jeon : 
-* Jihwan Hwang : Proprecess bus & Visulation     
+* Junseok Jeon : Preprocess & make algorithm to find the routes
+* Jihwan Hwang : Preprocess data & Visulation     
 
 
 ## 1. Topic description
